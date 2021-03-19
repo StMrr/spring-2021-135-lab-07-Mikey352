@@ -1,7 +1,7 @@
 #include <iostream>
-#include "funcs.h"
 #include <string>
 #include <cctype>
+#include "funcs.h"
 std::string removeLeadingSpace(std::string line) {
 	std::string answer;
 	bool condition = false;
