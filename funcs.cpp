@@ -18,3 +18,12 @@ std::string removeLeadingSpace(std::string line) {
 
 
 
+int countChar(std::string line, char c) {
+	int counter = 0;
+	for (int i = 0; i < line.size(); ++i) {
+		if (line[i] == c) {
+			counter++;
+		}
+	}
+	return counter;
+}
